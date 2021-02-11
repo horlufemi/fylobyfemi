@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  font-family: 'Inter' sans-serif;
+}
+
+
+
+
+/* navigation */
+nav .list {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.form-btn {
+  height: 2.6rem;
+  /* background:red; */
+}
+
+/* .c-email {
+  height: 2.5rem;
+} */
+
+
+/* header  */
+
+header {
+    background-image: url('../images/bg-curve-mobile.svg');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.c-email::placeholder {
+  padding-left: 1rem;
+}
+
+.img-container {
+    width: fit-content ;
+    height: fit-content;
+}
+
+.avatar-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* section */
+
+.section-1 {
+    background-color: #f8f8fe;
+}
+
+.avatar-card {
+    background-color: #fff;
+    box-shadow: 0 0 15px #00000025;
+    border-radius: 5px;
+    padding: 25px;
+    
+}
+
+/* shadow p-3 mb-5 bg-white rounded */
+
+.section-2{
+    background-color: #575a86;
+}
+
+footer {
+    background-color: #050637 !important;
+}
+
+footer li {
+    margin-top: 1rem;
+}
+
+footer ul a i{
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+footer ul a i:hover{
+  color: rgb(56, 56, 94);
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+  .user-info {
+      justify-content: center !important;
+  }
+
+}
